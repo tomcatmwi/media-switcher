@@ -1,9 +1,4 @@
-'use strict';
-
 class MediaSwitcher {
-
-    constructor() {
-    }
 
     inputPeerConnection;
     outputPeerConnection;

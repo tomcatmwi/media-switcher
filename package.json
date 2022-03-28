@@ -1,6 +1,6 @@
 {
   "name": "media-switcher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JavaScript class to allow MediaRecorder switch between media streams",
   "main": "js/MediaSwitcher.class.js",
   "scripts": {
