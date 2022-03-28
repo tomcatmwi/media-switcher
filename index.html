@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="WebRTC code samples">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+    <meta itemprop="description" content="StreamSwitcher Recorder">
+    <meta itemprop="name" content="StreamSwitcher Recorder">
+    <base target="_blank">
+    <title>MediaSwitcher demo</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    <style>
+        div {
+            padding: 1em;
+        }
+    </style>
+
+</head>
+
+<body>
+        <div>
+            <video id="outputVideo" muted autoplay style="border: 1px solid black; width: 640px; height: auto;" />
+        </div>
+
+        <div>
+            <b>Video source:</b>
+            <select id="video_src" disabled>
+                <option selected value="camera">Camera</option>
+                <option value="video1">Video 1</option>
+                <option value="video2">Video 2</option>
+                <option value="video3">Video 3</option>
+                <option value="canvas">Canvas</option>
+            </select>
+        </div>
+
+        <div>
+            <b>Audio source:</b>
+            <select id="audio_src" disabled>
+                <option selected value="mic">Microphone</option>
+                <option value="video1">Video 1</option>
+                <option value="video2">Video 2</option>
+                <option value="video3">Video 3</option>
+                <option value="audio1">Audio 1</option>
+                <option value="audio2">Audio 1</option>
+            </select>
+        </div>
+
+        <div>
+            <button id="recordButton" disabled>Start recording</button>
+        </div>
+
+</body>
+
+<script src="js/MediaSwitcher.class.js"></script>
+<script src="js/main.js" async></script>
+
+</html>
