@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = MediaSwitcher;
-
 class MediaSwitcher {
 
     constructor() {
@@ -100,3 +98,4 @@ class MediaSwitcher {
 
 }
 
+module.exports = MediaSwitcher;
