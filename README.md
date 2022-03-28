@@ -9,6 +9,13 @@ JavaScript Media and Streaming API's `MediaRecorder` has a problem. It can not s
 # How does it work?
 The class is the implementation of a long known workaround for the above problem. It creates an `RTCPeerConnection` with itself and sends your stream through it. The output is actually the receiving peer's stream.
 
+# Live demo
+Demo:
+https://dhk6x2.csb.app/
+
+Sandbox:
+https://codesandbox.io/s/dhk6x2
+
 # Installation
 
 You would've never guessed:
