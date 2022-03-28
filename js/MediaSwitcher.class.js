@@ -1,5 +1,7 @@
 'use strict';
 
+module.exports = MediaSwitcher;
+
 class MediaSwitcher {
 
     constructor() {

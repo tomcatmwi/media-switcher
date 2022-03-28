@@ -1,0 +1,27 @@
+{
+  "name": "media-switcher",
+  "version": "1.0.0",
+  "description": "A JavaScript class to allow MediaRecorder switch between media streams",
+  "main": "js/MediaSwitcher.class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcatmwi/media-switcher.git"
+  },
+  "keywords": [
+    "webrtc",
+    "media",
+    "streaming",
+    "mediarecorder",
+    "mediastream",
+    "media-switcher"
+  ],
+  "author": "tomcatmwi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomcatmwi/media-switcher/issues"
+  },
+  "homepage": "https://github.com/tomcatmwi/media-switcher#readme"
+}

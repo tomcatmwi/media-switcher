@@ -15,6 +15,13 @@ You would've never guessed:
 
 `npm i media-switcher`
 
+and then:
+
+```
+const MediaSwitcher = require('media-switcher');
+const mediaSwitcher = new MediaSwitcher();
+```
+
 Alternatively you can include `MediaSwitcher.class.js` the traditional way:
 
 ```
